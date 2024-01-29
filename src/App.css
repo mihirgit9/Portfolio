@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent !important;
+}
+.logo-font{
+    font-family:fantasy;
+}
+.font-intro{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@keyframes button{
+    20%{
+        
+        color: rgb(80, 89, 97);
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes button-after{
+    0%{
+        color: white;
+    }
+    40%{
+        
+        color: rgb(80, 89, 97);
+    }
+    100%{
+        color: black;
+    }
+}
+
+@keyframes bg{
+    0%{
+        width:0;
+        left: 0;
+    }
+    100%{
+        width: 100%;
+        left: 0;
+    }
+}
+@keyframes bg-after{
+    0%{
+        width: 100%;
+        right: 0;
+    }
+    100%{
+        width:0;
+        right: 0;
+    }
+}
+.about-btn{
+    animation: button-after 700ms linear forwards;
+}
+.about-btn:hover{
+    animation: button 700ms linear forwards;
+}
+.about-btn:hover>.about-bg{
+    animation:bg 500ms linear forwards;
+}
+.about-bg{
+    animation: bg-after 500ms linear forwards;
+}
+
+@keyframes hire{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.animate-hire{
+    animation: hire 2s linear forwards infinite;
+}
+
+@keyframes hero-img{
+    0%{
+        border-color: green;
+    }
+    50%{
+        border-color: white;
+    }
+    100%{
+        border-color: green;
+    }
+}
+.hero{
+    animation: hero-img 4s linear infinite;
+    clip-path:circle(50% at center) ;
+}
+
+.skills-logo{
+    width:15%;
+    transition:all 0.5s;
+}
+.skills-logo:hover{
+    transform:scale(1.2);
+}
+
+@keyframes blob{
+    0%{
+        top: 0;
+        left: 20%;
+        transform: rotate(0deg);
+    }
+    25%{
+        top: 20%;
+        left:30%;
+        transform: rotate(-30deg);
+    }
+    50%{
+        top: 40%;
+        left: 20%;
+        transform: rotate(0deg);
+    }
+    75%{
+        top: 20%;
+        left:0; 
+        transform: rotate(30deg);
+    }
+    100%{
+        top: 0;
+        left: 20%;
+        transform: rotate(0deg);
+    }
+}
+.blob{
+    animation: blob 30s linear infinite;
+}
+.card-css{
+    background: linear-gradient(180deg, rgb(9, 70, 2) 0%, rgba(153,139,196,0) 98%);
+}
+.skills-css{
+    background: rgb(81, 4, 4);
+    
+}
+.project-bg{
+    background: linear-gradient(180deg, rgb(147, 197, 253) 0%, rgba(10,10,10,0) 98%);
+}
