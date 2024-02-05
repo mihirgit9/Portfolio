@@ -14,7 +14,7 @@ import vercel from '../assets/Vercel.svg'
 import mysql from '../assets/mysql.svg'
 import docker from '../assets/Docker.svg'
 import blob from '../assets/blob vector.png'
-import ReactTyped from 'react-typed'
+import {ReactTyped} from 'react-typed'
 
 const Skills = () => {
   return (

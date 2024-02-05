@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactTyped from 'react-typed';
+import {ReactTyped} from 'react-typed';
 import heroimg from '../assets/hero-img.jpg';
 import coverimg from '../assets/cover-photo.jpg';
 
