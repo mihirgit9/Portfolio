@@ -1,7 +1,7 @@
 import React from 'react'
 import {projects} from '../data';
 import ProjectCard from './ProjectCard';
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaProjectDiagram } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -9,8 +9,8 @@ const Projects = () => {
       <div className='sm:w-[80%] w-[90%] mx-auto'>
         {/* Heading */}
         <div>
-          <h2 className=' w-fit mx-auto text-[2rem] md:text-[4rem] font-semibold text-blue-900 underline underline-offset-2'>Projects</h2>
-          <p className=' w-fit mx-auto text-purple-900 font-semibold'>Top Projects are listed below. </p>
+          <h2 className=' w-fit mx-auto text-[2rem] md:text-[4rem] font-semibold text-blue-900 '>Projects <FaProjectDiagram className='inline ml-2 text-[70%]' /></h2>
+          <p className=' w-fit mx-auto text-purple-900 font-semibold mt-4'>Top Projects are listed below. </p>
         </div>
 
         {/* Cards */}

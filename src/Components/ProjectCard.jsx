@@ -13,9 +13,9 @@ const ProjectCard = (props) => {
 
   return (
     <div  className=' w-[70%] sm:w-[60%] md:w-[44%] lg:w-[29%] h-[30vh] md:h-[27vh] lg:h-[22vh] xl:h-[26vh] border-2 border-purple-900 rounded-md  relative flex flex-col justify-between z-[0] card-css overflow-visible'>
-        <div className=''>
+        <div className='relative'>
             <h3 className=' text-center xl:text-[1.3rem] text-white font-semibold'>{project.name}</h3>
-            <div onClick={handleDesc} className='w-fit mx-auto text-[30px] text-slate-200 mt-[-10px] cursor-pointer'>{desc ? <MdArrowDropUp /> : <MdArrowDropDown />}</div>
+            <div onClick={handleDesc} className=' w-fit mx-auto text-[30px] text-slate-200  cursor-pointer '>{desc ? <MdArrowDropUp className='absolute top-[65%] right-[47%]' /> : <MdArrowDropDown className='absolute top-[65%] right-[47%] descArrow'/>}</div>
         </div>
         <p className={`absolute bg-slate-900 text-white p-2 px-3 text-[13px] lg:text-[12px] xl:text-[13px] text-justify w-[90%] max-h-[65%] rounded-md top-[18%] md:top-[20%] lg:top-[22%] left-[5%]   ${desc ? ' opacity-100 z-[1]' : 'opacity-0' } overflow-auto`}>{project.description}</p>  
         <a href={project.githubLink} target='_blank' rel='noreferrer' 

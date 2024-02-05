@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { IoMdSend } from "react-icons/io";
+import { FaMessage } from "react-icons/fa6";
 import { toast } from 'react-toastify';
 
 const Contact = () => {
@@ -34,7 +35,7 @@ const Contact = () => {
   return (
     <div id='contact' className=' bg-slate-300 '>
       <div className=' sm:w-[80%] w-[90%] mx-auto py-[100px] md:py-[80px]'>
-        <h2 className=' w-fit mx-auto text-[1.5rem] sm:text-[1.8rem] md:text-[2rem] lg:text-[3rem] text-blue-900 font-semibold underline underline-offset-2'>Contact Me</h2>
+        <h2 className=' w-fit mx-auto text-[1.5rem] sm:text-[1.8rem] md:text-[2rem] lg:text-[3rem] text-blue-900 font-semibold'>Contact Me <FaMessage className='inline ml-2 text-[80%]' /></h2>
         <h3 className='w-fit mx-auto text-[13px] sm:text-[1rem] md:text-[1.3rem] lg:text-[2rem] text-purple-900 font-semibold my-2'>Message, Thoughts, Or Just Want to Say Hello?</h3>
         <form onSubmit={submitHandler} className={`flex flex-col gap-[10px] my-4 max-w-[400px] md:max-w-[500px] lg:max-w-[550px] xl:max-w-[600px] mx-auto justify-center overflow-clip
         ${loading ? 'opacity-30': 'opacity-100'}`}>

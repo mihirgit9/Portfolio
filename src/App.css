@@ -151,3 +151,18 @@
 .project-bg{
     background: linear-gradient(180deg, rgb(147, 197, 253) 0%, rgba(10,10,10,0) 98%);
 }
+
+@keyframes bounce{
+    50%{
+        top: 75%;
+    }
+    100%{
+        top: 65%;
+    }
+}
+.descArrow{
+    animation: bounce 1s linear infinite;
+}
+.descArrow:hover{
+    animation: none;
+}

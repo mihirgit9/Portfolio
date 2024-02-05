@@ -17,7 +17,7 @@ import randomGif from './assets/randomgif.png'
 import authapp from './assets/authApp.png'
 
 
-export const education =[{
+export const educations =[{
     id:'UG1',
     course:'Bachelor Of Technology, EEE',
     session:'2019-2023',
@@ -26,7 +26,7 @@ export const education =[{
 },
 {
     id:'ISC',
-    course:'Internediate in Science, XIIth',
+    course:'Intermediate in Science, XIIth',
     session:'2017-2019',
     institute:'Central Board Of Secondary Education',
     grade:'71%'
@@ -69,7 +69,7 @@ export const projects =[{
 {
     id:'PR4',
     name:'Weather Report App',
-    description:'It is based on a third-party API, which is used to render weather data of a location. It automatically detects browser location and provide weather data. User can also search for any location.',
+    description:'It is integrated with a third-party API, which is used to render weather data of a location. It automatically detects browser location and provide weather data. User can also search for any location.',
     githubLink:'https://github.com/mihirgit9/WEB-Dev/tree/main/Projects/Weather%20App',
     skills:[html, javascript, tailwind, css, git, github],
     backgroundImg:weatherApp,

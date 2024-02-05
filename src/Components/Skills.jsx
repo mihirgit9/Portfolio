@@ -24,8 +24,8 @@ const Skills = () => {
           <h2 className='text-[2rem] md:text-[3rem] lg:text-[3.4rem] xl:text-[4rem] font-bold text-purple-900 leading-[2.1rem] md:leading-[3rem] lg:leading-[4rem]'><span className='text-[4rem] md:text-[5rem] lg:text-[5.4rem] xl:text-[6rem]'>M</span>y Skills <br/> 
           & Tech Stack <ReactTyped strings={['...']} loop cursorChar=' ' typeSpeed={500} /> </h2>
           <p className=' text-[14px] md:text-[1rem] my-6 px-6 md:w-[95%] lg:w-[85%] xl:w-[75%] text-slate-700 text-justify'>
-            I have hands-on experience of the below-mentioned skills and have built numbers of <a href='#projects' className='text-blue-700'>projects. 
-            </a> I have used <span className='font-semibold'>Redux toolkit </span> for store management and <span className=' font-semibold'>Context</span> for state management.
+            I have hands-on experience of the mentioned skills and have built numbers of <a href='#projects' className='text-blue-700'>projects. 
+            </a> I have used <span className='font-semibold'>Redux toolkit </span> for store management and <span className=' font-semibold'>Context</span> for state management in React.
             <br/><br/>
             I have experience of building server-side application which consists of <span className=' font-semibold'>payment gateway</span> and 
             using <span className=' font-semibold'>Nodemailer</span> for sending emails to the users.
