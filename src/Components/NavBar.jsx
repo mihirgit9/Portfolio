@@ -6,7 +6,7 @@ const NavBar = () => {
     const location = useLocation();
 
   return (
-    <div className={`lg:px-[10%] px-[5%] mx-auto flex sm:flex-row gap-2 justify-between sm:items-center sticky top-0 bg-white py-[20px] z-10
+    <div className={`lg:px-[10%] px-[5%] mx-auto flex sm:flex-row gap-2 justify-between sm:items-center sticky top-0 bg-white py-[10px] z-10
     ${location.pathname!=='/' ? 'flex-row items-center' : 'flex-col'}`}>
         {/* logo */}
 

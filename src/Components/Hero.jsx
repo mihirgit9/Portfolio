@@ -12,7 +12,7 @@ const Hero = () => {
         <p className='text-[22px] sm:text-[32px] xl:text-[35px] lg:pt-4'>I, <span className='font-semibold'>Mihir Kr. Thakur, </span>am a</p>
         <div>
           <ReactTyped
-            strings={['Front-end Engineer','Back-end Engineer', 'React Developer', 'Node Developer', 'Problem Solver' ]}
+            strings={['Full-Stack Developer', 'React Developer', 'Node Developer', 'Problem Solver' ]}
             typeSpeed={60}
             backSpeed={50}
             backDelay={1000}

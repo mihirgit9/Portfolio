@@ -19,8 +19,8 @@ import {ReactTyped} from 'react-typed'
 const Skills = () => {
   return (
     <div id='skills' className='bg-slate-300 relative z-[0] overflow-clip '>
-      <div className='sm:w-[80%] w-[90%] mx-auto flex flex-col lg:flex-row justify-center items-center gap-[2rem] py-[100px] md:py-[80px] z-[0] '>
-        <div className='w-[90%]  lg:w-[50%] mx-auto'>
+      <div className='sm:w-[80%] w-[90%] mx-auto flex flex-col lg:flex-row justify-center items-center gap-[1rem] sm:gap-[2rem] py-[100px] md:py-[80px] z-[0] '>
+        <div className='w-[90%] lg:w-[50%] mx-auto'>
           <h2 className='text-[2rem] md:text-[3rem] lg:text-[3.4rem] xl:text-[4rem] font-bold text-purple-900 leading-[2.1rem] md:leading-[3rem] lg:leading-[4rem]'><span className='text-[4rem] md:text-[5rem] lg:text-[5.4rem] xl:text-[6rem]'>M</span>y Skills <br/> 
           & Tech Stack <ReactTyped strings={['...']} loop cursorChar=' ' typeSpeed={500} /> </h2>
           <p className=' text-[14px] md:text-[1rem] my-6 px-6 md:w-[95%] lg:w-[85%] xl:w-[75%] text-slate-700 text-justify'>
