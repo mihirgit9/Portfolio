@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBackward, FaDownload, FaAddressCard, FaBookOpen, FaMusic, FaMotorcycle } from "react-icons/fa";
+import { FaBackward, FaDownload, FaBookOpen, FaMusic, FaMotorcycle } from "react-icons/fa";
 import { MdSchool, MdInterests, MdSportsCricket, MdModeOfTravel, MdLocationOn } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 import {educations} from '../data'
@@ -14,7 +14,7 @@ const About = () => {
 
         <div className='flex justify-between items-center py-4 relative'>
           <FaBackward onClick={()=>navigate(-1)} className='text-[1.5rem] mx-2 cursor-pointer hover:scale-110 transition-all' />
-          <img src={aboutme} alt='aboutme' className='w-[30%] absolute left-[35%] top-[20%]' />
+          <img src={aboutme} alt='aboutme' loading='lazy' className='w-[30%] absolute left-[35%] sm:top-[10%]' />
           <div className=' bg-black text-white text-[0.8rem] md:text-[1rem] rounded-md p-2 px-3'><a href='https://drive.google.com/file/d/1bWhl34_ySiMGUekQeG3A_j_WKdY8ibI4/view?usp=sharing' target='_blank' rel='noreferrer'> <FaDownload className='inline mr-1' />Resume</a></div>
         </div>
       
@@ -57,7 +57,7 @@ const About = () => {
             </div>
 
             <div className='bg-white w-fit py-4 px-2 rounded-md'>
-              <h2 className='w-fit mx-auto mb-[1rem] sm:text-[1.7rem] text-[1rem] font-semibold text-blue-900 bg-purple-400 px-4 sm:px-6 rounded-md'><FaAddressCard className='inline mb-[3px] ' /> Address</h2>
+              <h2 className='w-fit mx-auto mb-[1rem] sm:text-[1.7rem] text-[1rem] font-semibold text-blue-900 bg-purple-400 px-2 sm:px-6 rounded-md'><MdLocationOn className='inline mb-[3px] ' /> Address</h2>
               <p className='my-[1rem] font-semibold text-amber-900 text-[0.8rem] sm:text-[1.1rem]'><MdLocationOn className='inline mr-2' />
                 Patna, Bihar, India <br/>
               </p>
