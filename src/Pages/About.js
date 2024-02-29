@@ -19,7 +19,7 @@ const About = () => {
         </div>
       
         <div className='lg:my-[3rem] lg:w-[75%] w-[100%] mx-auto text-[0.8rem] lg:text-[1rem] bg-white py-4 px-6 rounded-md shadow-md shadow-black text-justify'>
-          <span className='font-semibold'>Hi there!</span> I, Mihir Kr Thakur, am from Patna, Bihar. I have recently completed my <span className='font-semibold'>B.tech in 2023</span> from Bihar Engineering University
+          <span className='font-semibold'>Hi there!</span> I, Mihir Kr Thakur, am from Patna, Bihar. Currently, I am working at Innovaccer as DataOps Engineer. I have recently completed my <span className='font-semibold'>B.tech in 2023</span> from Bihar Engineering University
           in Electrical and Electronics Engineering with <span className='font-semibold'>8.3 CGPA.</span> I am a Full-Stack Developer and passionate problem-solver. I have strong command over 
           JavaScript, C++ and Python. I am a Certified <span className='font-semibold'>MERN Stack Developer</span> and have built many projects using React.js and Node.js. <br/>
           <br/>
